@@ -1,0 +1,207 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color:#0F0F0F
+}
+
+header {
+    background-color: #D0BFFF;
+    color: #0f0f0f;
+    text-align: center;
+    padding: 20px;
+  
+
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.project-card23 {
+    background-color: #A3F7BF;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+    position: absolute;
+   
+    left:400px;
+    height: 300px;
+    top: 270px;
+}
+.project-card24 {
+    background-color: #A3F7BF;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+    position: absolute;
+   
+    left:1100px;
+    height: 300px;
+    top: 270px;
+}
+.project-card2 {
+    background-color: #A3F7BF;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+    position: absolute;
+   
+    left:750px;
+    height: 300px;
+    top: 270px;
+}
+
+.project-card24 img {
+    max-width: 50%;
+    height: 70%;
+}
+.project-card2 img {
+    max-width:90%;
+    height: 70%;
+}
+.project-card23 img {
+    max-height:60%;
+    width: auto;
+}
+
+.project-card h2 {
+    font-size: 1.5rem;
+    margin: 10px 0;
+}
+
+.project-card p {
+    font-size: 1rem;
+}
+
+.project-card a {
+    display: block;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.project-card a:hover {
+    background-color: #555;
+}
+
+
+.about-me {
+    background-color: #A3F7BF;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+    position: absolute;
+    left:50px;
+    height:470px;
+    top: 100px;
+}
+.about{
+    background-color: #A3F7BF;;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    width: 1000px;
+    position: absolute;
+   left:400px;
+    height: 150px;
+    top: 100px;
+}
+
+.about-me img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+
+.about-me h2 {
+    font-size: 1.5rem;
+    margin: 10px 0;
+}
+
+.about-me p {
+    font-size: 1rem;
+}
+.about {
+    font-size:medium;
+}
+
+
+/* Existing styles remain the same */
+
+.my-skills {
+    background-color: #A3F7BF;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+    position: absolute;
+    left:50px;
+    
+    top: 600px;
+}
+
+.my-skills h2 {
+    font-size: 1.5rem;
+    margin: 10px 0;
+}
+
+.my-skills ul {
+    list-style: none;
+    padding: 0;
+}
+
+.my-skills li {
+    font-size: 1rem;
+    margin: 10px 0;
+}
+.contact-me{
+    background-color: #A3F7BF;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+    position: absolute;
+    left:400px;
+    
+    top: 600px;
+
+}
